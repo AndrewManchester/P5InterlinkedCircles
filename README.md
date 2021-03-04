@@ -3,7 +3,7 @@ of it
 
 Its table driven so as to make it easy to change the parameters and see the effects
 
-~~~
+~~~javascript
 let showCircles = true
 let base = 0.0005
 let data = [{radius: 100, speed: base*10,  color: 'white',   show: false, penWidth: 1},
@@ -20,6 +20,6 @@ let data = [{radius: 100, speed: base*10,  color: 'white',   show: false, penWid
 You can switch between the interinked circles or the trail made by the pens attached
 to each circle by 
 
-~~~
+~~~javascript
 let showCircles = true //false
 ~~~
